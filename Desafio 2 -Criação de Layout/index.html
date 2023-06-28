@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Lista de tarefas</title>
+</head>
+<body>
+   
+  <h1>Lista de Tarefas</h1>
+   
+  <div class="container">
+    <div class="card">
+      <img src="images/profile.png" id="profile-pic">
+      <label for="input-file">Trocar foto</label>
+      <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+      <h1>Olá, Humano</h1>
+      <p>Alguns sites legais para você <br>se divertir ou matar o tempo:</p>
+
+      <ul id="link">
+        <li><a href="https://radio.garden/?r=1" target="_blank">Rádio Garden</a></li>
+        <li><a href="https://apod.nasa.gov/apod/astropix.html" target="_blank">NASA Photo</a></li>
+        <li><a href="https://www.mapcrunch.com/" target="_blank">Map Crunch</a></li>
+        <li><a href="https://www.window-swap.com/Window" target="_blank">Window Swap</a></li>
+      </ul>
+    </div>
+
+    <div class="todo-app">
+      <h2>Dia<img src="images/icons8-sol-150.png" alt=""></h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Adicione uma tarefa">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+        <!--li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li-->
+      </ul>
+    </div>
+
+    <div class="todo-app-1">
+      <h2>Noite<img src="images/icons8-crescent-moon-96.png" alt=""></h2>
+      <div class="row">
+        <input type="text" id="input-box-1" placeholder="Adicione uma tarefa">
+        <button onclick="addTask1()">Add</button>
+      </div>
+      <ul id="list-container-1">
+        <!--li class="checked">Task 1</li>-->
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
