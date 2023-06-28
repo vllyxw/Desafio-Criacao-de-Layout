@@ -2,4 +2,4 @@
 
 Um pequeno desafio que fiz para um processo seletivo.
 
-O site está sem responsavidade!
+O site está sem responsividade!
